@@ -1,0 +1,41 @@
+body{
+    background-image: url("../Background.jpg");
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+body {
+    color:whitesmoke;
+    font-style: italic;
+}
+#main_container_quests,
+#main_container_news{
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin-top: 10px;
+    opacity: 0.8;
+    background-color: black;
+    color: white;
+    box-shadow: black 0 0 65px, white 0 0 25px;
+
+}
+
+#index_news_info{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top:50px;
+}
+.fail_login_message{
+    width: 150px;
+    float:right;
+    padding-left:10px;
+    color: red;
+    font-size:12px;
+}
+.succes_login_message{
+    width: 150px;
+    float:right;
+    padding-left:10px;
+    color: greenyellow;
+    font-size:17px;
+}
